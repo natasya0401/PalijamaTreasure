@@ -30,7 +30,7 @@ class LoginActivity : AppCompatActivity() {
                 startActivity(intent)
                 finish()
             } else {
-                showToast("Please enter a username")
+                showToast("Please enter your username")
             }
         })
     }
